@@ -1,0 +1,13 @@
+@import "./partials/reset";
+@import "./partials/header";
+
+@mixin important-text{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+.important{
+    @include important-text;
+}
